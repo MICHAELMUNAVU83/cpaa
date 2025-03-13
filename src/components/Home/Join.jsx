@@ -14,7 +14,7 @@ export default function JoinSection() {
   ];
 
   return (
-    <section className="my-10 w-full h-auto lg:h-screen flex items-center justify-center">
+    <section className="my-2 w-full h-auto lg:h-screen flex items-center justify-center">
       <div className="w-full max-w-[90%] lg:max-w-[80%] mx-auto">
         {JoinData.map((data, index) => (
           <motion.div

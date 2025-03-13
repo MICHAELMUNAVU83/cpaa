@@ -23,12 +23,6 @@ export default function OurTeam() {
           image: `/ouma.png`,
         },
         {
-          id: 3,
-          name: `Ishmail Owuor`,
-          role: `Head of Membership Coordination`,
-          image: `/ishmail.jpg`,
-        },
-        {
           id: 4,
           name: `George Ndhawa `,
           role: `Head of Partnership and Liaison`,
@@ -82,7 +76,7 @@ export default function OurTeam() {
         </div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{
