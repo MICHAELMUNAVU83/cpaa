@@ -9,8 +9,8 @@ export default function TeamTile({ imgRef, name, Role }) {
         />
       </div>
       <div className="flex flex-col">
-        <h1 className="text-[20px] md:text-[24px] lg:text-[30px]">{name}</h1>
-        <p className="text-[16px] md:text-[20px] lg:text-[24px]">{Role}</p>
+        <h1 className=" font-semibold mt-2 text-[20px] md:text-[24px] lg:text-[30px]">{name}</h1>
+        <p className=" text-[16px] md:text-[20px] lg:text-[24px]">{Role}</p>
       </div>
     </div>
   );
