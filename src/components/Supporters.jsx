@@ -17,8 +17,8 @@ const Supporters = () => {
     "/logo3.jpg",
   ];
   return (
-    <div className="mt-10  flex flex-col justify-center items-center w-full mx-auto gap-5">
-      <h1 className="text-[#525560] uppercase text-center libre-baskerville-regular text-[22px] md:text-[30px] lg:text-[48px] ">
+    <div className="mt-10  flex flex-col justify-center items-center w-full mx-auto gap-5 mb-4">
+      <h1 className="text-[#525560] uppercase text-center libre-baskerville-regular text-[22px] md:text-[30px] lg:text-[48px] font-bold ">
         Our Partners
       </h1>
 

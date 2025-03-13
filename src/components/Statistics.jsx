@@ -15,7 +15,7 @@ function Statistics() {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           viewport={{ once: true }}
         >
-          <h2 className="mt-4 md:text-[30px] text-[20px] w-[90%] lg:w-[50%] text-[#525560] libre-baskerville-bold">
+          <h2 className="mt-4 md:text-[30px] text-[20px] w-[90%] lg:w-[50%] text-[#525560] font-bold">
             Our Fun Facts
           </h2>
         </motion.div>

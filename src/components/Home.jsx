@@ -46,10 +46,10 @@ const HomeDesc = () => {
                   backgroundImage: `url(${slide.image})`,
                 }}
               >
-                <p className="libre-baskerville-bold w-[80%] md:w-[50%] text-[32px] md:text-[40px]">
+                <p className=" font-bold w-[80%] md:w-[50%] text-[32px] md:text-[40px]">
                   {slide.title}
                 </p>
-                <p className="josefin-sans-regular  mt-5  w-[80%] md:w-[50%] text-[18px] md:text-[22px]">
+                <p className="font-normal mt-2  w-[80%] md:w-[50%] text-[18px] md:text-[22px]">
                   {slide.content}
                 </p>
               </div>

@@ -14,7 +14,7 @@ export default function TileComponent({
         <div className="flex flex-col w-full space-y-4">
           <div className="flex flex-row space-x-4 w-auto items-center md:justify-start lg:items-center lg:justify-start">
             <span className="border-b-4 border-red-600 w-8 h-2 flex "></span>
-            <span className="text-red-600 text-[16px] md:text-[18px] lg:text-[20px] font-bold">
+            <span className="text-red-600 text-[16px] md:text-[18px] lg:text-[20px] font-bold ">
               {headerTile}
             </span>
           </div>
@@ -39,7 +39,7 @@ export default function TileComponent({
               {desc[1]}
             </p>
             <Link href={"/about"}>
-              <button className="px-4 py-2 md:w-full lg:px-8 lg:py-4 mt-10 bg-red-600 text-yellow-500 text-base lg:text-lg">
+              <button className="px-4 py-2 md:w-full lg:px-8 lg:py-4 mt-10 bg-red-600 text-white  text-base lg:text-lg">
                 {btn}
               </button>
             </Link>
@@ -50,7 +50,7 @@ export default function TileComponent({
             src={imgRef}
             width={500}
             height={500}
-            className="object-cover object-cover bg-center lg:w-full md:w-full lg:h-full"
+            className="object-cover  bg-center lg:w-full md:w-full lg:h-full"
             alt={title}
           />
         </div>
@@ -108,7 +108,7 @@ export const TileComponent2 = ({
             </ul>
           </div>
           <Link href={"/programs"}>
-            <button className="px-4 py-2 md:w-full lg:px-8 lg:py-4 mt-10 bg-red-600 text-yellow-500 text-base lg:text-lg">
+            <button className="px-4 py-2 md:w-full lg:px-8 lg:py-4 mt-10 bg-red-600 text-white text-base lg:text-lg">
               {btn}
             </button>
           </Link>

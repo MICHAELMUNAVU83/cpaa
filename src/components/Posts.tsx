@@ -34,7 +34,7 @@ const Posts = () => {
     <div className="md:w-[80%] w-[90%] m-auto mb-10">
       <div>
         <motion.h2
-          className="mt-4 md:text-[30px] text-[20px] w-[90%] lg:w-[100%] text-[#525560] libre-baskerville-bold"
+          className="mt-4 md:text-[30px] text-[20px] w-[90%] lg:w-[100%] text-[#525560] font-bold"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
