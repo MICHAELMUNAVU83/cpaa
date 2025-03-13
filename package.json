@@ -1,6 +1,7 @@
 {
   "name": "cpaa",
   "private": true,
+  "homepage": "https://cpaa.africa",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
