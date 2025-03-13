@@ -25,7 +25,7 @@ export default function TileComponent({
             <p className="text-[16px] md:text-[20px] lg:text-[24px]">
               {desc[0]}
             </p>
-            <ul className=" bg-gray-100 p-2 rounded-3xl shadow-md">
+            <ul className=" bg-gray-100 p-2 rounded-3xl shadow-md list-disc pl-7">
               {list.map((list, idx) => (
                 <li
                   key={idx}
@@ -69,25 +69,31 @@ export const TileComponent2 = ({
 }) => {
   return (
     <>
-      <div className="flex  flex-col lg:flex-row  lg:space-x-4">
+      <div className="flex flex-col lg:flex-row lg:space-x-4">
+        {/* Image Section */}
         <div className="w-full flex items-center justify-center">
           <img
             src={imgRef}
             width={500}
             height={500}
-            className="object-cover  bg-center md:w-full lg:w-full lg:h-full"
+            className="object-cover bg-center md:w-full lg:w-full lg:h-full"
             alt={title}
           />
         </div>
+
+        {/* Content Section */}
         <div className="flex flex-col w-full space-y-4 mt-4">
+          {/* Header Tag with Underline */}
           <div className="flex flex-row space-x-4 w-auto items-center">
-            <span className="border-b-4 border-red-600 w-8 h-2 flex "></span>
+            <span className="border-b-4 border-red-600 w-8 h-2 flex"></span>
             <span className="text-red-600 text-[16px] md:text-[18px] lg:text-[20px] font-bold">
               {headerTile}
             </span>
           </div>
+
+          {/* Title & Description */}
           <div className="flex flex-col space-y-4">
-            <h1 className="text-[24px] md:text-[34px] lg:text-[48px]">
+            <h1 className="text-[24px] md:text-[34px] lg:text-[48px] font-bold">
               {title}
             </h1>
             <p className="text-[16px] md:text-[20px] lg:text-[24px]">
@@ -96,13 +102,15 @@ export const TileComponent2 = ({
             <p className="text-[16px] md:text-[20px] lg:text-[24px]">
               {desc[1]}
             </p>
-            <ul className="bg-gray-100 p-2 md:p-4 shadow-md rounded-3xl w-full">
-              {list.map((list, idx) => (
+
+            {/* List with Bullet Points */}
+            <ul className="bg-gray-100 p-4 shadow-md rounded-3xl w-full list-disc pl-7">
+              {list.map((item, idx) => (
                 <li
                   key={idx}
-                  className="text-[16px] md:text-[20px] lg:text-[24px] font-medium "
+                  className="text-[16px] md:text-[20px] lg:text-[24px] font-medium"
                 >
-                  {list}
+                  {item}
                 </li>
               ))}
             </ul>
