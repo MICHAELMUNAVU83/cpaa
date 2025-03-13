@@ -7,7 +7,7 @@ export default function JoinSection() {
       id: 1,
       headerTag: `Join Us`,
       title: `Why Join CPAA?`,
-      imgRef: `/members.jpg`,
+      imgRef: `/public/Screenshot 2025-03-13 at 12.43.11.png`,
       desc: `Become part of a transformative movement that fosters innovation, collaboration, and shared growth across the continent and its diaspora. Together, we can make the Pan-African dream a reality! `,
       button: `Become a member today`,
     },

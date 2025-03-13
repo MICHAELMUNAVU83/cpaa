@@ -8,7 +8,7 @@ export default function WhatWeDo() {
       id: 1,
       headerTag: `Mission & Vision`,
       title: `What We Do`,
-      imgRef: `/assets/hero/wed0.jpg`,
+      imgRef: `/public/Screenshot 2025-03-13 at 12.41.26.png`,
       desc: [
         `Empower | Advocate | Transform`,
         `CPAA champions the Pan-African vision through:`,

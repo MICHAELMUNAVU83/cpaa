@@ -41,7 +41,7 @@ const HomeDesc = () => {
           {slidesData.map((slide, index) => (
             <SwiperSlide key={index}>
               <div
-                className="flex text-white flex-col justify-center items-center gap-4  object-cover w-[100%] h-[100%] text-center"
+                className="flex text-white flex-col justify-center items-center gap-4 bg-no-repeat  bg-cover w-[100%] h-[100%] text-center"
                 style={{
                   backgroundImage: `url(${slide.image})`,
                 }}

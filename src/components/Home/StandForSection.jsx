@@ -7,7 +7,7 @@ export default function StandForSection() {
       id: 1,
       headerTag: `CPAA Envision`,
       title: `What We Stand For`,
-      imgRef: `/assets/hero/envision.jpg`,
+      imgRef: `/public/Screenshot 2025-03-13 at 12.39.46.png`,
       desc: [
         `At CPAA, we envision:`,
         `We work tirelessly to connect communities, amplify African voices, and build solutions to the continent’s challenges through partnerships and people-centered approaches.`,
